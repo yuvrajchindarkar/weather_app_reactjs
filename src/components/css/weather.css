@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 900px;
+    height: 550px;
+    box-shadow: 0 2px 20px rgba(6, 6, 6, 0.991);
+}
+
+.inner-container {
+    display: flex;
+    height: 312px;
+}
+
+.box1 {
+    width: 500px;
+    box-shadow: 0 0 20px rgba(8, 8, 8, 0.991);
+    margin: 10px 0px 23px 60px;
+}
+
+.box2 {
+    box-shadow: 0 0 20px rgba(8, 8, 8, 0.991);
+    margin: 10px 60px 23px 20px;
+}
+
+.searchbar {
+    margin: 6px 60px 0px 60px;
+    padding: 0px 0px 10px 1px;
+    box-shadow: 0 0 20px rgba(8, 8, 8, 0.991);
+}
+
+.search {
+    padding: 8px 100px 8px 2px;
+    margin: 10px 20px 0 60px;
+    border: none;
+    background-color: rgba(8, 8, 8, 0);
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+
+.button {
+    padding: 5px;
+    background: #00000054;
+    color: wheat;
+}
+
+.button:hover {
+    background: #000;
+    color: aliceblue;
+}
+
+.info1 {
+    color: white;
+    margin: 0px 20px 0 40px;
+}
+
+.city {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.location {
+    margin: 10px 0px 0px 7px;
+    color: red;
+}
+
+.date {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.img {
+    width: 90px;
+    margin-top: 10px;
+    background-color: rgba(46, 45, 45, 0.676);
+}
+
+.descrip {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.temperature {
+    margin: 15px;
+    padding: 10px;
+    font-size: 90px;
+    color: white;
+}
+
+.extra-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px;
+    box-shadow: 0 0 20px rgba(8, 8, 8, 0.991);
+    padding: 10px;
+}
+
+.extra1 {
+    width: 150px;
+    height: 140px;
+    background-color: #00000090;
+    color: rgba(240, 248, 255, 0.541);
+    padding: 10px 0 0 10px;
+}
+
+.icon-extra {
+    color: rgb(255, 255, 255);
+    margin: 0 5px 0 0;
+}
+
+h3 {
+    margin-top: 10px;
+    font-weight: 500;
+    color: red;
+}
+
+.extra1 p {
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 15px;
+}
