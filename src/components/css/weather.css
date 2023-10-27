@@ -138,53 +138,48 @@
     
     @media (max-width: 968px) {
         .main {
-            width: 75%;
+            width: 95%;
         }
-    }
-    
-    .box1,
-    .box2 {
-        width: 100%;
-        margin: 10px 12px;
-    }
-    
-    .searchbar {
-        margin: 6px 20px 0px 20px;
-    }
-    
-    .search {
-        margin: 10px 20px 0 20px;
-    }
-    
-    .city {
-        font-size: 40px;
-    }
-    
-    .date {
-        font-size: 16px;
-    }
-    
-    .img {
-        width: 50px;
-        margin-top: 10px;
-    }
-    
-    .descrip {
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    
-    .extra-info {
-        display: flex;
-        justify-content: space-between;
-        margin: 0px 20px;
-        box-shadow: 0 0 20px rgba(8, 8, 8, 0.991);
-        padding: 10px;
-    }
-    
-    .extra1 {
-        width: 100%;
-        margin: 5px;
+        .box1,
+        .box2 {
+            width: 100%;
+            margin: 10px 12px;
+        }
+        .searchbar {
+            margin: 6px 20px 0px 20px;
+        }
+        .search {
+            margin: 10px 20px 0 20px;
+        }
+        .city {
+            font-size: 60px;
+        }
+        .date {
+            font-size: 16px;
+        }
+        .img {
+            width: 50px;
+            margin-top: 10px;
+        }
+        .descrip {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .extra-info {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 12px 10px 12px;
+            box-shadow: 0 0 20px rgba(8, 8, 8, 0.991);
+            padding: 10px;
+            width: 94%;
+        }
+        .extra1 {
+            margin: 5px;
+        }
+        .temperature {
+            font-size: 90px;
+            font-weight: 500;
+        }
     }
     /* Media query for tablets */
     
@@ -204,7 +199,7 @@
             margin: 10px 20px 0 20px;
         }
         .city {
-            font-size: 40px;
+            font-size: 45px;
         }
         .date {
             font-size: 16px;
@@ -241,7 +236,7 @@
     
     @media (max-width: 480px) {
         .main {
-            width: 100%;
+            width: 90%;
             height: auto;
         }
         .inner-container {
@@ -251,41 +246,107 @@
         .box1,
         .box2,
         .searchbar {
-            width: 100%;
+            width: 96%;
             margin: 10px 10px;
         }
         .search {
-            margin: 10px 10px 0 10px;
+            margin: 10px 2px 0 10px;
         }
         .city {
             font-size: 40px;
         }
         .date {
-            font-size: 16px;
+            font-size: 10px;
         }
         .img {
-            width: 60px;
+            width: 50px;
             margin-top: 5px;
         }
         .descrip {
-            font-size: 16px;
+            font-size: 14px;
         }
         .temperature {
             margin: 10px;
-            font-size: 60px;
+            font-size: 55px;
         }
         .extra-info {
-            margin: 0;
+            margin-left: 10px;
+            font-size: 12px;
+            width: 90%;
         }
         .extra1 {
-            width: 100%;
+            width: 98%;
         }
         h3 {
-            margin-top: 5px;
-            font-size: 20px;
+            margin-top: 2px;
+            font-size: 16px;
         }
         .extra1 p {
             margin-top: 10px;
             font-size: 12px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .container {
+            background-image: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+            background-position: center center;
+            display: grid;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        .main {
+            width: 80%;
+            margin-right: 10px;
+            border: 2px solid;
+        }
+        .searchbar {
+            margin: 7px 1px 0px 5px;
+            width: 96%;
+        }
+        .search {
+            padding: 8px 3px 8px 6px;
+            font-size: 12px;
+            margin: 10px 1px 7px 4px;
+        }
+        .button {
+            margin: 5px 0px 0px 10px;
+        }
+        .inner-container {
+            width: 93%;
+        }
+        .city {
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .date {
+            font-size: 10px;
+        }
+        .img {
+            width: 45px;
+        }
+        .descrip {
+            font-size: 14px;
+            font-weight: 200;
+        }
+        .temperature {
+            font-size: 50px;
+        }
+        .extra-info {
+            width: 85%;
+            font-size: 8px;
+            margin: 0px 10px 5px 10px;
+        }
+        .extra1 {
+            margin: 1px 1px 1px 1px;
+            padding: 1px 1px 1px 1px;
+        }
+        h3 {
+            font-size: 12px;
+        }
+        .extra1 p {
+            font-size: 10px;
         }
     }
